@@ -1,0 +1,128 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/****-----start-body----****/
+body{
+	background: #00aaec;
+  font-family: 'Open Sans', sans-serif;
+}
+body a,form li,.submit input[type="submit"],.new h3 a,.new h4 a{
+	transition: 0.1s all;
+	-webkit-transition: 0.1s all;
+	-moz-transition: 0.1s all;
+	-o-transition: 0.1s all;
+}
+body h1 {
+  color:#fff;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 2.9em;
+}
+.page-header {
+  margin: 0;
+  border-bottom: 0;
+}
+.app-location{
+  width:50%;
+  margin:0 auto;
+  text-align: center;
+  background: #f8f8f8;
+  padding:2em 4em;
+}
+.location {
+  padding: 1em 0 2em;
+}
+.location img {margin: 0 auto;}
+.app-location form {
+   padding: 0% 8%;
+}
+.app-location button{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 13px 15px;
+  width: 110%;
+  margin-left: -15px;
+  border:3px solid #00aaec;
+  background: #00aaec;
+  border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+}
+button:hover{
+  background:none;
+  border: 3px solid #00aaec;
+  color: #0aaeca;
+
+}
+.new {
+  margin: 3em 0 1em 0;
+}
+.new h3{
+  float:left;
+}
+.new h3 a,.new h4 a{
+  color:#78797C;
+  font-weight: 400;
+  font-size: 1em;
+}
+.new h3 a:hover,.new h4 a:hover{
+  text-decoration: underline;
+}
+.new h4{
+  float:right;
+}
+.copy-right {
+  padding: 2em 1em;
+}
+.copy-right p {
+	color: #fff;
+	font-size: 1em;
+	font-weight:400;
+  margin: 0 auto;
+  text-align: center;
+}
+.h2-title {
+  font-size: 24px;
+  padding: 15px 0 20px;;
+}
+.login-up  button{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 13px 0;
+  width: 100%;
+ 
+  margin-top: 25px;
+  border:3px solid #00aaec;
+  background: #00aaec;
+  border-radius: 0.3em;
+  -o-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+}
